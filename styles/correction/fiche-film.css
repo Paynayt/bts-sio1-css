@@ -1,0 +1,66 @@
+body{
+	background-color: lightgray;
+}
+#principale{
+	background-color: black;
+	width: 50%;
+	margin-left: 25%;
+	border-radius: 30px;
+}
+#titre{
+	height: 80px;
+}
+
+h1{
+	color: yellow;
+	padding:20px;
+	text-align: center;
+}
+#divImageAffiche{
+	float: left;
+	width: 20%;
+	padding: 20px;
+}
+#divTexte1{
+	float: left;
+	width: 60%;
+}
+
+p{
+	color: white;
+	font-size: 15px;
+	text-align: justify;
+	padding: 20px;
+}
+
+.col1{
+	background-color: #c7b912;
+	width: 30%;
+}
+.col2{
+	background-color: #e2e809;
+	width: 60%;
+}
+#divTable{
+	float:left;
+	padding: 20px;
+}
+.imgHom{
+	padding: 20px;
+}
+#divFin{
+	display: table;
+}
+#boite1, #boite2{
+	display: table-row;
+}
+
+.divImg{
+	display: table-cell;
+}
+.divTexte2{
+	display: table-cell;
+}
+.divTexte2 > p{
+	float: left;
+}
